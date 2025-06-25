@@ -14,11 +14,11 @@ export default function Home() {
         <div className="flex flex-col items-center md:items-start gap-5 md:gap-7 text-center md:text-start">
           <div>
             <h3 className="font-semibold text-white/70 tracking-wider mb-1">
-              Software Engineer
+              Full Stack Developer
             </h3>
             <h2 className="text-3xl md:text-5xl mb-2">Hello I&apos;m</h2>
             <h1 className="text-lightSky text-5xl md:text-7xl tracking-normal">
-              John Doe
+              SR Rony
             </h1>
           </div>
           <div className="w-full h-[170px] md:h-[140px] relative">
@@ -33,7 +33,7 @@ export default function Home() {
             systems, I bridge the gap between technology and user needs.
           </p> */}
 
-          <Button className="bg-transparent rounded-full border border-lightSky/50 text-lightSky hover:bg-hoverColor hover:text-black hoverEffect">
+          <Button className="mt-5 md:mt-0 bg-transparent rounded-full border border-lightSky/50 text-lightSky hover:bg-hoverColor hover:text-black hoverEffect">
             <Link
               href="/resume.pdf"
               target="_blank"

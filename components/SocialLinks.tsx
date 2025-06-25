@@ -1,32 +1,32 @@
-import { Facebook, Github, Instagram, Linkedin, Youtube } from "lucide-react";
+import { Facebook, Github, Instagram, Linkedin, Youtube} from "lucide-react";
 import Link from "next/link";
 import React from "react";
 
 const socialData = [
-  {
-    title: "Youtube",
-    icon: <Youtube width={20} height={20} />,
-    link: "https://www.github.com",
-  },
+  // {
+  //   title: "Youtube",
+  //   icon: <Youtube width={20} height={20} />,
+  //   link: "https://github.com/SR-Rony",
+  // },
   {
     title: "Github",
     icon: <Github width={20} height={20} />,
-    link: "https://www.github.com",
+    link: "https://github.com/SR-Rony",
   },
   {
     title: "Linkedin",
     icon: <Linkedin width={20} height={20} />,
-    link: "https://www.github.com",
+    link: "https://www.linkedin.com/in/sr-rony/",
   },
   {
     title: "Facebook",
     icon: <Facebook width={20} height={20} />,
-    link: "https://www.github.com",
+    link: "https://www.facebook.com/hdrony.hdrony",
   },
   {
     title: "instagram",
     icon: <Instagram width={20} height={20} />,
-    link: "https://www.github.com",
+    link: "https://www.instagram.com/srony50/",
   },
 ];
 
