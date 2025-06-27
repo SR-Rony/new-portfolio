@@ -38,7 +38,7 @@ const SocialLinks = () => {
           key={item?.title}
           className="text-lightSky/80 border border-lightSky/30 p-2.5 rounded-full hover:bg-lightSky/10 hover:border-lightSky hover:text-lightSky hoverEffect"
         >
-          <Link href={"https://www.github.com"} target="blank">
+          <Link href={item.link} target="blank">
             <span className="">{item?.icon}</span>
           </Link>
         </div>

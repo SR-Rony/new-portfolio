@@ -41,14 +41,14 @@ const projects = [
   },
   {
     id: "02",
-    title: "Task Management App",
+    title: "Orebi Ecommerce",
     category: "Frontend",
     description:
       "A sleek task management application that helps users organize their daily activities, set priorities, and track progress. Built with React and Redux for state management.",
-    stack: ["React", "Redux", "Styled Components", "Firebase"],
+    stack: ["React", "Redux", "Tailwind Css",],
     image: projectTwo,
-    liveUrl: "https://example-taskmanager.com",
-    githubUrl: "https://github.com/example/taskmanager",
+    liveUrl: "https://orebi-ecommerce-sigma.vercel.app/",
+    githubUrl: "https://github.com/SR-Rony/orebi-Ecommerce.git",
   },
   {
     id: "03",

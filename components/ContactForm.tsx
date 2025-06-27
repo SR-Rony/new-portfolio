@@ -171,8 +171,8 @@ const ContactForm = () => {
                   <SelectGroup>
                     <SelectLabel>Select a service</SelectLabel>
                     <SelectItem value="est">Web Development</SelectItem>
-                    <SelectItem value="cst">UI/UX Design</SelectItem>
-                    <SelectItem value="mst">Logo Design</SelectItem>
+                    <SelectItem value="cst">App Development</SelectItem>
+                    <SelectItem value="mst">SCO Marketing</SelectItem>
                   </SelectGroup>
                 </SelectContent>
               </Select>
