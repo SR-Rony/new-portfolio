@@ -3,12 +3,12 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { motion } from "framer-motion";
 import { Badge } from "@/components/ui/badge";
-import { Calendar, GraduationCap, Briefcase, Code2, User } from "lucide-react";
+import { Calendar, Briefcase, Code2, User } from "lucide-react";
 import Container from "@/components/Container";
 
 const tabMenu = [
   { title: "Experience", value: "experience", icon: Briefcase },
-  { title: "Education", value: "education", icon: GraduationCap },
+  // { title: "Education", value: "education", icon: GraduationCap },
   { title: "Skills", value: "skills", icon: Code2 },
   { title: "About me", value: "about", icon: User },
 ];
@@ -20,7 +20,7 @@ const tabContent = {
       {
         role: "Senior Frontend Developer",
         company: "Tech Solutions Inc.",
-        period: "2021 - Present",
+        period: "2023 - Present",
         description:
           "Led the development of multiple React-based web applications, improving performance by 40%. Mentored junior developers and implemented best practices for code quality.",
         highlights: ["React", "Next.js", "TypeScript", "Team Leadership"],
@@ -28,34 +28,34 @@ const tabContent = {
       {
         role: "Full Stack Developer",
         company: "Digital Innovations Ltd",
-        period: "2018 - 2021",
+        period: "2021 - 2024",
         description:
           "Developed and maintained full-stack applications using modern JavaScript frameworks. Collaborated with cross-functional teams to deliver high-quality solutions.",
-        highlights: ["Node.js", "React", "MongoDB", "AWS"],
+        highlights: ["Node.js", "React", "MongoDB",],
       },
     ],
   },
-  education: {
-    title: "Educational Background",
-    items: [
-      {
-        degree: "Master of Computer Science",
-        institution: "Tech University",
-        period: "2016 - 2018",
-        description:
-          "Specialized in Software Engineering and Artificial Intelligence. Graduated with honors.",
-        achievements: ["4.0 GPA", "Research Publication", "Dean's List"],
-      },
-      {
-        degree: "Bachelor of Computer Science",
-        institution: "State University",
-        period: "2012 - 2016",
-        description:
-          "Foundation in computer science principles, data structures, and algorithms.",
-        achievements: ["Academic Excellence Award", "Programming Club Lead"],
-      },
-    ],
-  },
+  // education: {
+  //   title: "Educational Background",
+  //   items: [
+  //     {
+  //       degree: "Master of Computer Science",
+  //       institution: "Tech University",
+  //       period: "2016 - 2018",
+  //       description:
+  //         "Specialized in Software Engineering and Artificial Intelligence. Graduated with honors.",
+  //       achievements: ["4.0 GPA", "Research Publication", "Dean's List"],
+  //     },
+  //     {
+  //       degree: "Bachelor of Computer Science",
+  //       institution: "State University",
+  //       period: "2012 - 2016",
+  //       description:
+  //         "Foundation in computer science principles, data structures, and algorithms.",
+  //       achievements: ["Academic Excellence Award", "Programming Club Lead"],
+  //     },
+  //   ],
+  // },
   skills: {
     title: "Technical Skills",
     categories: [
@@ -81,7 +81,7 @@ const tabContent = {
         name: "Tools & Others",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, distinctio. Quas fugiat nesciunt ipsum. Voluptatem inventore iste labore, similique quod laudantium rerum dolor, impedit voluptas distinctio praesentium quibusdam veniam tempore. Laudantium repellendus possimus adipisci maxime.",
-        skills: ["Git", "Docker", "AWS", "CI/CD", "Agile Methodologies"],
+        skills: ["Git", "github","npm","yarn"],
       },
     ],
   },
@@ -89,12 +89,14 @@ const tabContent = {
     title: "About Me",
     bio: "Passionate software developer with over 5 years of experience in building modern web applications. Committed to writing clean, maintainable code and staying current with emerging technologies. Strong advocate for user-centric design and accessibility.",
     interests: [
-      "Open Source Contributing",
-      "Tech Blogging",
-      "UI/UX Design",
-      "Machine Learning",
+      "MERN Stack Developer",
+      "Backend Developer",
+      "Frontend Developer",
+      "App Development",
+      "SEO Marketing",
+
     ],
-    languages: ["English (Native)", "Spanish (Intermediate)", "German (Basic)"],
+    languages: ["English (conversation)", "Hindi (Intermediate)", "German (Basic)"],
   },
 };
 
@@ -170,7 +172,7 @@ export default function ResumePage() {
                   ))}
                 </div>
               </TabsContent>
-              <TabsContent value="education">
+              {/* <TabsContent value="education">
                 <motion.h2
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
@@ -212,7 +214,7 @@ export default function ResumePage() {
                     </motion.div>
                   ))}
                 </div>
-              </TabsContent>
+              </TabsContent> */}
               <TabsContent value="skills">
                 <motion.h2
                   initial={{ opacity: 0 }}

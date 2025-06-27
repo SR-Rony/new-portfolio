@@ -28,7 +28,7 @@ const ServicesPage = () => {
                   <p className="text-5xl font-extrabold text-outline text-transparent group-hover:text-outline-hover hoverEffect">
                     {item?._id}
                   </p>
-                  <Link href={item?.href} target="blank">
+                  <Link href={item?.href}>
                     <ArrowUp className="rotate-45" />
                   </Link>
                 </div>
